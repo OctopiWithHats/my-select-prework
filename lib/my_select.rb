@@ -5,5 +5,6 @@ def my_select(collection)
  while count < collection.size
   if yield(collection[count])==true
     result.push(collection[count])
-    
+  end
+  
 end
