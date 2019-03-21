@@ -7,5 +7,5 @@ def my_select(collection)
     result.push(collection[count])
   end
   count += 1
-  
+end
 end
